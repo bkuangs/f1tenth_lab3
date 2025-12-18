@@ -1,9 +1,10 @@
 # Lab 3: Wall Following
 
-**Assignment Link:** https://github.com/f1tenth/f1tenth_lab3_template
+**Assignment link:** https://github.com/f1tenth/f1tenth_lab3_template
 
 **Deliverable":** Implementation of PID control through a node and a video submission of the simulation proving it works
 
+Intuitive process map of the wall follow node
 ![Intuitive process map of the code](image.png)
 
 **Blockers:**
