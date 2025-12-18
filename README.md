@@ -75,3 +75,14 @@ Implement wall following to make the car drive autonomously around the Levine Ha
 - Video: **10** Points
 
 ![Intuitive process map of the code](image.png)
+
+bottlenecks:
+- initial code was under scripts folder so command to run didn't work correctly
+- python errors were occuring but don't print unless u type command to run script directly
+
+Sim Testing:
+- sharp and slow turns -> increase kd
+- update velo logic to be more smooth
+- "double pump" before turning -> we are adjust too fast bc kd is too high 
+- falling for the divot (false turning) -> update get_range function to use "cone of vision" instead
+- change desired dist (from left wall) to 1.0
