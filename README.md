@@ -6,13 +6,15 @@
 
 ![Intuitive process map of the code](image.png)
 
-**Blockers before sim testing:**
+**Blockers:**
+Before running simulation:
 - Node file was initially under `scripts` folder, so the command to run it didn't work (ROS couldn't find it)
-- There were errors in the code, but they weren't printing out unless you run the command to run script directly in terminal
+- There were errors in the code but they weren't printing out the script was directly run in terminal
 
-**Sim test tuning:**
-- sharp and slow turns -> increase kd
-- update velo logic to be more smooth
-- "double pump" before turning -> we are adjust too fast bc kd is too high 
-- falling for the divot (false turning) -> update get_range function to use "cone of vision" instead
-- change desired dist (from left wall) to 1.0
+Tuning simulation:
+- Car slowed down too much before turns, when turning it was too sharp -> lower kp, increase kd and update velocity logic to be more smooth
+- Car was "double pumping" before turning -> lower kd 
+- Car was falling for the divot (false turning) -> updated the get_range() function to use "cone of vision" logic instead
+- Car kept turning into the wall -> set desired distance (from left wall) to 1.0
+
+**Submission:** https://youtu.be/78lcVt-F52M
