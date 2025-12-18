@@ -73,3 +73,5 @@ Implement wall following to make the car drive autonomously around the Levine Ha
 - Implemented PID: **40** Points
 - Tuned PID: **40** Points
 - Video: **10** Points
+
+![Intuitive process map of the code](image.png)

@@ -45,7 +45,7 @@ ament_python_install_package(${PROJECT_NAME})
 
 # Install Python executables
 install(PROGRAMS
-  scripts/wall_follow_node.py
+  wall_follow/wall_follow_node.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
