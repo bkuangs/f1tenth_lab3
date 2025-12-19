@@ -2,7 +2,7 @@
 
 **Assignment link:** https://github.com/f1tenth/f1tenth_lab3_template
 
-**Deliverable:** Implementation of PID control through a node and a video submission of the simulation proving it works
+**Deliverable:** Implementation of PID control with a video submission of the simulation
 
 **Submission video:** https://youtu.be/78lcVt-F52M 
 
